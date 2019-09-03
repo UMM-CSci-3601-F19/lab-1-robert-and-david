@@ -32,8 +32,7 @@ To view your website, you should be able to simply open the `index.html` file in
 choose "Open in Browser", and choose the browser you'd like to use.)
 
 #### Our Team's GitHub Pages URL
-https://github.com/UMM-CSci-3601-F19/lab-1-robert-and-david.git
-
+https://umm-csci-3601-f19.github.io/lab-1-robert-and-david/
 #### Version Control Reminder
 Remember to practice good version control! New features should be developed in
 feature branches, [commit messages should be in the present tense and provide
