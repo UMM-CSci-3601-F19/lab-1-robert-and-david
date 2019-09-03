@@ -31,11 +31,8 @@ To view your website, you should be able to simply open the `index.html` file in
 (In most cases, 'double clicking' the file should do this. In IntelliJ IDEA, you can right click on the file,
 choose "Open in Browser", and choose the browser you'd like to use.)
 
-Remove this line from your `README.md` file. Replace the URL in the next subsection with your team's GitHub.io URL,
-which should look something like this: http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/ but will not be identical.
-
 #### Our Team's GitHub Pages URL
-http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/
+https://github.com/UMM-CSci-3601-F19/lab-1-robert-and-david.git
 
 #### Version Control Reminder
 Remember to practice good version control! New features should be developed in
