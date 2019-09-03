@@ -13,14 +13,19 @@ use float to make something locate itself on the right or left
 
 
 }
-
-body{
-    padding: 30px;
-    background-color: #ff8f41;
-    color: #713700;
+@media screen and (min-width: 950px){
+  body{
+    flex-direction: row;
+  }
+  .faculty-container {
     display: flex;
+  }
+}
+body{
+  padding: 30px;
+  background-color: #ff8f41;
+  color: #713700;
+  display: flex;
+  flex-direction: column;
 }
 
-#faculty{
-  align-content: end;
-}
