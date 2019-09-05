@@ -6,8 +6,44 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
+#main-title{
+  font-family: 'Press Start 2P', cursive;
 
+  text-align: center;
+  font-size: xx-large;
+  color: #ff42be;
+  text-shadow: 3px 3px #000000;
+}
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+  background: linear-gradient(110deg, #4EA2A2 40%, #1A8693 60%);
+}
+#style{
+  position: -ms-device-fixed;
+  height: 30px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+
+#style ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #D4B95E;
+  overflow: hidden;
+}
+style li{
+  float: left;
+}
+
+#style li a{
+  font-family: 'Acme', sans-serif;
+  color: #ff1434;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+}
+#style li a:hover {
+  background-color: #D28F33;
 }
