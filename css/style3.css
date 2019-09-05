@@ -8,14 +8,14 @@ use float to make something locate itself on the right or left
 */
 #main-title{
   font-family: 'Press Start 2P', cursive;
-
   text-align: center;
   font-size: xx-large;
   color: #ff42be;
   text-shadow: 3px 3px #000000;
+  padding: 40px;
 }
 body{
-    padding: 30px;
+  padding: 30px;
   background: linear-gradient(110deg, #4EA2A2 40%, #1A8693 60%);
 }
 #style{
@@ -47,3 +47,22 @@ style li{
 #style li a:hover {
   background-color: #D28F33;
 }
+#validation{
+  font-size: 70%;
+  /*background-image: url("/assets/images/KK.jpg");
+  background-repeat: repeat;
+  background-position: left top;*/
+  background-color: rgba(212, 195, 94, .55);
+  border: 3px solid rgba(212, 195, 94, .35);
+  padding: 20px;
+}
+.card{
+  border-radius: 20px;
+  fill-opacity: 20%;
+}
+.course-number, .discipline{
+  font-style: italic;
+  font-family: 'Manjari', sans-serif;
+  font-size: large;
+}
+
