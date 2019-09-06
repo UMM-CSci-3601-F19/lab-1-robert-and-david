@@ -10,18 +10,25 @@ use float to make something locate itself on the right or left
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   font-size: xx-large;
-  color: #751A33;
+  color: #A55450;
   text-shadow: 3px 3px #000000;
   padding: 40px;
+  background-color: rgba(243, 182, 129, .55);
+  border-radius: 100px;
+  border: 10px dotted;
 }
 body{
   padding: 30px;
-  background: linear-gradient(110deg, #4EA2A2 40%, #1A8693 60%);
+  background: linear-gradient(110deg, #6CD8AC 40%, #24C5C5 60%);
   display: flex;
   flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
 }
 h2 {
   font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 3px #000000;
+  color: #D78F6A;
 }
 @media screen and (max-width: 800px) {
   #faculty-container{
@@ -29,18 +36,23 @@ h2 {
     flex-direction: column;
   }
 }
+#courses, #pslo{
+  background-color: rgba(243, 182, 129, .55);
+}
+
 .section{
   padding: 20px;
   margin: 10px;
+  border-radius: 30px;
+  border: double 10px;
 }
 #faculty>ul>li{
   padding: 50px;
 }
 #faculty{
-  background: #D28F33;
+  background: #F0DF9E;
   padding: 40px;
-  border-radius: 100px;
-  border: 10px groove;
+  border: 10px outset;
   align-content: center;
   justify-content: center;
   display: flex;
@@ -61,10 +73,11 @@ h2 {
   padding-left: 0;
 }
 img.pic{
-  border: #7A0019 dashed 8px;
+  border: #D78F6A dashed 8px;
 }
 .office, .name{
-  color: #B34233;
+  color: #24C5C5;
+  text-shadow: 2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000;
 }
 .name{
   font-family: 'Fredoka One', cursive;
@@ -85,7 +98,7 @@ img.pic{
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #D4B95E;
+  background-color: #F3B681;
   overflow: hidden;
 }
 style li{
@@ -93,28 +106,27 @@ style li{
 }
 
 #style li a{
-  font-family: 'Acme', sans-serif;
-  color: #ff1434;
+  font-family: 'Oswald', sans-serif;
+  color: #A55450;
   display: block;
   text-align: center;
   padding: 10px 15px;
 }
 #style li a:hover {
-  background-color: #D28F33;
+  background-color: #D78F6A;
 }
 #validation{
-  font-size: 70%;
-  background-color: rgba(212, 195, 94, .55);
+  font-size: 90%;
+  background-color: rgba(243, 182, 129, .55);
   border: 3px solid rgba(212, 195, 94, .35);
   padding: 20px;
-}
-.card{
+  text-align: center;
+  list-style-position: inside;
   border-radius: 20px;
-  fill-opacity: 20%;
 }
 .course-number, .discipline{
   font-style: italic;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: large;
 }
 
