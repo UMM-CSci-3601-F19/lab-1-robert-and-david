@@ -22,6 +22,12 @@ body{
   flex-direction: column;
 }
 
+#faculty>ul>li{
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
 .section{
   border: 5px solid;
   background-color: #fff266;
