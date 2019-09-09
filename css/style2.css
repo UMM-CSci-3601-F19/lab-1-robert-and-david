@@ -10,8 +10,7 @@ use float to make something locate itself on the right or left
 #main-title{
   text-shadow: 2px 2px #3b0f00;
   text-align: center;
-
-
+  font-family: Orbitron;
 }
 
 body{
@@ -21,11 +20,14 @@ body{
   display: flex;
   flex-direction: column;
 }
-
 #faculty>ul>li{
   display: inline-block;
   font-family: sans-serif;
   padding: 30px;
+}
+/*example of grouping and id*/
+.discipline, .course-number{
+  font-weight: bold;
 }
 
 .section{
