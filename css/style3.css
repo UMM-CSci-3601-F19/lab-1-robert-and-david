@@ -11,7 +11,7 @@ use float to make something locate itself on the right or left
   text-align: center;
   font-size: xx-large;
   color: #A55450;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 3px 3px #000000; /*This adds a nice shadow to the text making it seem more 3D and more interesting. */
   padding: 40px;
   background-color: rgba(243, 182, 129, .55);
   border-radius: 100px;
@@ -19,7 +19,7 @@ use float to make something locate itself on the right or left
 }
 body{
   padding: 30px;
-  background: linear-gradient(110deg, #6CD8AC 40%, #24C5C5 60%);
+  background: linear-gradient(110deg, #6CD8AC 40%, #24C5C5 60%); /* This gives the background of the website a gradient instead of one color or image.*/
   display: flex;
   flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
@@ -36,23 +36,22 @@ h2 {
     flex-direction: column;
   }
 }
-#courses, #pslo{
+#courses, #pslo{ /*This is the use of grouping*/
   background-color: rgba(243, 182, 129, .55);
 }
 
-.section{
+.section{  /*This is the use of a class*/
   padding: 20px;
   margin: 10px;
   border-radius: 30px;
-  border: double 10px;
+  border: 10px double #A55450;
 }
 #faculty>ul>li{
   padding: 50px;
 }
-#faculty{
+#faculty{ /*This is the use of an id*/
   background: #F0DF9E;
   padding: 40px;
-  border: 10px outset;
   align-content: center;
   justify-content: center;
   display: flex;
@@ -77,7 +76,8 @@ img.pic{
 }
 .office, .name{
   color: #24C5C5;
-  text-shadow: 2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000;
+  text-shadow: 2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000; /*Instead of a shadow, this adds an even stroke around the text so the
+                                                                                        text pops out more from the background.*/
 }
 .name{
   font-family: 'Fredoka One', cursive;
@@ -94,11 +94,11 @@ img.pic{
   padding-top: 20px;
 }
 
-#style ul {
+#style ul { /*This is an example of nesting.*/
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #F3B681;
+  background-color: rgba(243, 182, 129, .7); /*Instead of using a hex code for a color, we're using rgba so we can control the opacity of the box so it seems to blend more.*/
   overflow: hidden;
 }
 style li{
@@ -114,6 +114,7 @@ style li{
 }
 #style li a:hover {
   background-color: #D78F6A;
+  transition: .4s; /*This makes the buttons for the different styles have nice transition instead of a hard switch of colors. */
 }
 #validation{
   font-size: 90%;
