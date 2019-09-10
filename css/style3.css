@@ -6,8 +6,128 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
-
-body{
-    padding: 30px;
-    background-color: #aaaaaa;
+#main-title{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: xx-large;
+  color: #A55450;
+  text-shadow: 3px 3px #000000; /*This adds a nice shadow to the text making it seem more 3D and more interesting. */
+  padding: 40px;
+  background-color: rgba(243, 182, 129, .55);
+  border-radius: 100px;
+  border: 10px dotted;
 }
+body{
+  padding: 30px;
+  background: linear-gradient(110deg, #6CD8AC 40%, #24C5C5 60%); /* This gives the background of the website a gradient instead of one color or image.*/
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+}
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 3px #000000;
+  color: #D78F6A;
+}
+@media screen and (max-width: 800px) {
+  #faculty-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+#courses, #pslo{ /*This is the use of grouping*/
+  background-color: rgba(243, 182, 129, .55);
+}
+
+.section{  /*This is the use of a class*/
+  padding: 20px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 10px double #A55450;
+}
+#faculty>ul>li{
+  padding: 50px;
+}
+#faculty{ /*This is the use of an id*/
+  background: #F0DF9E;
+  padding: 40px;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.faculty-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#faculty-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  align-content: center;
+  padding-left: 0;
+}
+img.pic{
+  border: #D78F6A dashed 8px;
+}
+.office, .name{
+  color: #24C5C5;
+  text-shadow: 2px 2px #000000, 2px -2px #000000, -2px 2px #000000, -2px -2px #000000; /*Instead of a shadow, this adds an even stroke around the text so the
+                                                                                        text pops out more from the background.*/
+}
+.name{
+  font-family: 'Fredoka One', cursive;
+  font-size: x-large;
+}
+.office{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: large;
+}
+#style{
+  position: -ms-device-fixed;
+  height: 30px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+#style ul { /*This is an example of nesting.*/
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgba(243, 182, 129, .7); /*Instead of using a hex code for a color, we're using rgba so we can control the opacity of the box so it seems to blend more.*/
+  overflow: hidden;
+}
+style li{
+  float: left;
+}
+
+#style li a{
+  font-family: 'Oswald', sans-serif;
+  color: #A55450;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+}
+#style li a:hover {
+  background-color: #D78F6A;
+  transition: .4s; /*This makes the buttons for the different styles have nice transition instead of a hard switch of colors. */
+}
+#validation{
+  font-size: 90%;
+  background-color: rgba(243, 182, 129, .55);
+  border: 3px solid rgba(212, 195, 94, .35);
+  padding: 20px;
+  text-align: center;
+  list-style-position: inside;
+  border-radius: 20px;
+}
+.course-number, .discipline{
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+}
+
