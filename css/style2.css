@@ -19,23 +19,41 @@ body{
   display: flex;
   flex-direction: column;
 }
+/*example of an id*/
 #faculty>ul>li{
-  display: inline-block;
-  font-family: sans-serif;
+  display: inline-block; /*making this an inline block keeps the faculty list from going vertically*/
+  font-family: Abydos;
+  font-weight: bolder;
   padding: 30px;
 }
-/*example of grouping and id*/
+/*example of grouping*/
 .discipline, .course-number{
   font-weight: bold;
 }
-
+/*example of a class*/
 .section{
-  border: 50px solid;
+  border-left-style: groove; /*this makes a groove style for the left of each block, but no other side*/
   background-color: #fff266;
-  border-radius: 12px;
 }
-
+/*example of nesting*/
+.section>h2{
+  font-family: Lalezar;
+}
 .validation{
-  position: absolute;
+  position: absolute; /*this forces the validation block to be at the bottom of the page*/
   bottom: 0;
+  border: 3px solid;
+
+}
+#style{
+  position: absolute;
+  height: 10px;
+}
+#style li a{
+  font-family: Abril Fatface;
+  font-size:  larger;
+}
+#style li a:hover{ /*:hover specifies actions taken when the mouse hovers over that section*/
+  background-color: rgba(186,90,0,0.59); /*rgba is an alternative to using hexcodes*/
+  transition: .4s ;
 }
